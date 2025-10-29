@@ -1,0 +1,260 @@
+.h2 {
+  color:rgb(255, 255, 255);
+  position: relative;
+  top: 240px;
+  left: 150px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.servicoT{
+  font-family: 'Times New Roman', Times, serif;
+  color:#ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  bottom: -240px;
+  left: 300px;
+
+}
+.selecioneS {
+  position: relative;
+  top: 350px;
+  left: 10px;
+  padding: 12px 120px;
+  border-radius: 10px;
+  background-color: rgb(214, 210, 205);
+  color: black;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.horarioD{
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.escolherH {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  position: relative;
+  left: 1350px;
+  top: 65px;
+  cursor: pointer;
+}
+.escolherH:hover {
+
+ 
+  color:#e9ca4f
+}
+
+.dataLabel{
+
+  position: relative;
+  top: 550px;
+  left: -470px;
+  padding: 12px 150px;
+  border-radius: 10px;
+  background-color: rgb(214, 210, 205);
+  color: black;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+
+}
+
+.dataS {
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  position: fixed;   /* fixa na tela */
+  top: 545;         /* distância do topo da tela */
+  left: 300px;       /* distância da borda esquerda */
+  z-index: 1000;     /* garante que fique acima de outros elementos */
+}
+
+.botao {
+  display: inline-block;
+  padding: 14px 150px;
+  border-radius: 40px;
+  border: 3px solid #ffde59;
+  background: transparent;
+  color: #f5efda;
+  cursor: pointer;
+  transition: color .3s ease, box-shadow .3s ease, transform .1s ease;
+  position: fixed;
+  top: 800px;
+  left: 1200px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  
+}
+.botao:hover {
+  color: rgb(0, 0, 0);
+  box-shadow: inset 0 -100px 0 0 #ffde59;
+}
+
+.botao:active {
+  transform: scale(0.9);
+}
+
+.barra {
+  background-color: #e9ca4f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  top: 300px;
+  left: 150px;
+  padding: 14px 200px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  color: black;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.horario{
+  position: relative;
+  top: 480px;
+  left: 150px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  padding: 14px 200px;
+  color:black;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.h22{
+  position: relative;
+  top: 420px;
+  left: 150px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.logar{
+
+  background-color: #b9b5b5 ;
+  color:black;
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  border-color: #b9b5b5 ;
+  padding: 2px 35px;
+
+}
+
+.campoemail {
+  background-color: #b9b5b5;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-color: #b9b5b5;
+  border-radius: 20px;
+  padding: 2px 35px;
+}
+
+.name {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+ 
+}
+
+.email {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+ 
+}
+
+.senha {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.camposenha {
+  background-color: #b9b5b5;
+  color:black;
+  font-size: 20px;
+  margin-bottom: 35px;
+  border-color: #b9b5b5;
+  border-radius: 20px;
+  padding: 2px 35px;
+
+}
+
+
+.button {
+  background-color: #808080;
+  border-color: 2px solid #808080;
+  border-radius: 10px;
+  color: rgb(0, 0, 0); 
+  font-family: 'Times New Roman', Times, serif;
+  padding: 7px 120px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #d8d2d2;
+}
+
+
+.check {
+  position: relative;
+  margin-left: 1600px;
+  font-size: 90px;
+  border-radius: 40px;
+  cursor:pointer
+}
+
+
+
+.teste {
+  color: rgb(255, 255, 255);
+  position: relative;
+  
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 50px;
+  
+}
+
+.concluido {
+  color: rgb(255, 255, 255);
+  position: fixed;
+  margin-left: 1500px;
+  display: flex;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+.list {
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+
+

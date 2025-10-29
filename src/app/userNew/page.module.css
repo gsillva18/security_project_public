@@ -1,0 +1,75 @@
+.h1{
+    color:rgb(5, 5, 5);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.box {
+       width: 400px;      
+       height: 500px;     
+       border: 2px solid rgb(0, 0, 0);      
+       margin: 50px;       
+       background-color: #f2efeb;
+       position: absolute;
+       left: 1150px;
+       border-radius: 40px;
+       box-shadow: 18px 18px  #e9ca4f;
+       top: 150px;
+
+       display: flex;
+       flex-direction: column;   
+       justify-content: flex-start; 
+       padding: 30px;  
+}  
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+.barra {
+  background-color: #e9ca4f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+}
+
+.h22{
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  margin: 20px;
+  position: relative;
+  z-index: 10;      
+  font-family: 'Times New Roman', Times, serif; 
+  top: 320px;
+  left: 400px;
+}
+
+.texto1 {
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  top: 360px;
+  left: 380px;
+  font-size: 30px;
+}
+
+.texto2 {
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  top: 370px;
+  left: 380px;
+  font-size: 30px;
+}
+
+.barra2 {
+  background-color: #e9ca4f;
+  position: fixed;
+  top: 750px;
+  left: 320px;
+  right: 840px;
+  height: 5px;
+}

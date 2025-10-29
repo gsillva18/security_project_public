@@ -1,0 +1,25 @@
+.h1{
+    color: #ffde59;
+    position: relative;
+    top: 130px;
+    left: 150px;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.h2{
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 150px;
+    font-family:  'Times New Roman', Times, serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  height: 100%; 
+}
+

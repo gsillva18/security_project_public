@@ -1,0 +1,156 @@
+.nome{
+  border: 2px solid #b9b5b5;
+  background-color: #b9b5b5;
+  border-radius: 20px;
+  color: black;
+  padding: 2px 5px;
+  font-size: 20px;
+
+}
+
+.senha{ 
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+  font-size: 25px;
+  
+}
+
+.name{
+  color:black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+
+.titulo {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+  margin-bottom: 30px ;
+  font-size: 30px;
+}
+
+.password {
+  border: 2px solid #b9b5b5;
+  background-color: #b9b5b5;
+  border-radius: 20px;
+  color: black;
+  padding: 2px 35px;
+  font-size: 20px;
+}
+
+.box {
+       width: 400px;      
+       height: 500px;     
+       border: 2px solid rgb(0, 0, 0);      
+       margin: 50px;       
+       background-color: #f2efeb;
+       position: absolute;
+       left: 1150px;
+       border-radius: 40px;
+       box-shadow: 18px 18px  #e9ca4f;
+       top: 150px;
+
+       display: flex;
+       flex-direction: column;   
+       justify-content: flex-start; 
+       padding: 30px;  
+}  
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+.barra {
+  background-color: #e9ca4f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+}
+
+.entrar {
+  background-color: #808080;
+  border-color: 2px solid #808080;
+  border-radius: 10px;
+  color: rgb(0, 0, 0); 
+  font-family: 'Times New Roman', Times, serif;
+  padding: 7px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.entrar:hover {
+  background-color: #cac6c6;
+  border-color: black;
+}
+
+.remember{
+  color: black;
+  font-size: 15px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+
+ .h2 {
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  margin: 20px;
+  position: relative;
+  z-index: 10;      
+  font-family: 'Times New Roman', Times, serif; 
+  top: 320px;
+  left: 400px;
+}
+
+.texto {
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  top: 360px;
+  left: 380px;
+  font-size: 30px;
+}
+
+.text {
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  top: 380px;
+  left: 380px;
+  font-size: 30px;
+}
+
+.outrapagina {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  position: relative;
+  top: 440px;
+  left: 320px;
+  display: inline-block; 
+  background-color: white;
+  color: rgb(0, 0, 0); 
+  padding: 15px 40px; 
+  text-align: center; 
+  border: none; 
+  border-radius: 15px;
+  cursor: pointer; 
+  font-size: 20px;
+  font-weight: bold;
+}
+.outrapagina:hover {
+  background-color: #e9ca4f; 
+}
+
+.barra2 {
+  background-color: #e9ca4f;
+  position: fixed;
+  top: 750px;
+  left: 320px;
+  right: 840px;
+  height: 5px;
+}
